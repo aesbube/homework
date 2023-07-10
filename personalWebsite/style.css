@@ -1,0 +1,442 @@
+@font-face {
+    font-family: Manrope;
+    src: url(Manrope-VariableFont_wght.ttf);
+
+}
+
+* {
+    font-family: Manrope;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.head {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* .background_picture #pic{
+    width: 100%;
+    height: 100vh;
+} */
+.background_picture {
+    width: 100%;
+    height: 100vh;
+    z-index: -15;
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.background_picture1 {
+    width: 100%;
+    height: 100vh;
+    z-index: -15;
+    background: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.background_picture2 {
+    width: 100%;
+    height: 100vh;
+    z-index: -15;
+    background: url(images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.background_picture3 {
+    width: 100%;
+    height: 100vh;
+    z-index: -15;
+    background: url(images/background3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.mainopacity {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    opacity: 50%;
+    background-color: black;
+    z-index: -13;
+}
+
+.opacity {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: black;
+    opacity: 35%;
+    z-index: -10;
+}
+
+.headcontent {
+    margin: 0 auto;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+}
+
+.wrapper {
+    max-width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+header .headcontent #logo {
+    width: 270px;
+    z-index: 100;
+    margin-top: 27px;
+}
+
+header .headcontent nav {
+    float: right;
+    width: 50%;
+    margin-top: -60px !important;
+
+}
+
+header .headcontent ul {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    box-sizing: border-box;
+}
+
+header .headcontent nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+header .headcontent nav ul li a:hover {
+    transition: 0.5s;
+    color: #efe1dd;
+    /*color: black;*/
+}
+
+.title {
+    width: 1000px;
+    height: 667px;
+    margin-top: 300px;
+    position: absolute;
+    z-index: 10;
+}
+
+.title h1 {
+    font-size: 65px;
+    color: white;
+    letter-spacing: 4px;
+    line-height: 85px;
+    font-weight: bolder;
+}
+
+.underline {
+    width: 170px;
+    height: 5px;
+    background-color: #efe1dd;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 30px;
+    z-index: 15;
+}
+
+.paragraph1 {
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    margin-top: 70px;
+}
+
+.paragraph1 p {
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+}
+
+.button {
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    border-radius: 5px;
+    color: white;
+    background-color: #efe1dd;
+    border-style: none;
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+.button {
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    box-shadow: 9px 7px 51px -9px rgba(0, 0, 0, 0.75);
+}
+
+.button a {
+    position: absolute;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #404040;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ================================================ */
+
+#white1 {
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 124vh;
+    background-color: white;
+    /*z-index: -20;*/
+    z-index: -20;
+}
+
+#white2 {
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 30vh;
+    background-color: white;
+    /*z-index: -20;*/
+    z-index: -20;
+}
+
+#white3 {
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 30vh;
+    background-color: white;
+    /*z-index: -20;*/
+    z-index: -20;
+}
+
+.accomp {
+    margin-top: 910px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    position: relative;
+}
+
+.accomp a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.accomppic {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.accomppic1 {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.accomplishments {
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 120px;
+}
+
+.prv, .vtor, .tret, .chetvrt {
+    width: 400px;
+    height: 400px;
+}
+
+#white3 .prv, #white3 .vtor, #white3 .tret, #white3 .chetvrt {
+    width: 900px;
+    height: 450px;
+}
+
+.accomplishments1 {
+    width: 220px;
+    height: 260px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.accomplishments2 {
+    width: 220px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.tekst {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.tekst p {
+    text-align: center;
+    font-size: 18px;
+    color: #404040;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.white2 {
+    margin-top: 3%;
+    width: 100%;
+    height: 650px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+.white2 .pic2 {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    z-index: 10;
+}
+
+.white2 .pic2 #pic2 {
+    width: 100%;
+    height: 650px;
+}
+
+.opacity2 {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    opacity: 50%;
+    background-color: black;
+    z-index: 15;
+    margin-top: 3%;
+}
+
+.whcontent {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    z-index: 16;
+    margin-top: 3%;
+}
+
+.maincont {
+    margin: 0 auto;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 120px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.und {
+    width: 170px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.underline1 {
+    width: 170px;
+    height: 5px;
+    background-color: #efe1dd;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 20px;
+    z-index: 15;
+}
+
+.parag {
+    display: block;
+    padding-top: 60px;
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.parag p {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.button1 {
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.tekst а {
+    text-decoration: none;
+
+}
+
+
